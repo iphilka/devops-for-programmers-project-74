@@ -1,0 +1,7 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - /home/iphilka/test/devops-for-programmers-project-74/app:/app
